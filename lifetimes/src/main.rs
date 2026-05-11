@@ -1,8 +1,8 @@
 
 //  
-struct ImportantExcerpt<'a> {
-    part: &'a str,
-}
+// struct ImportantExcerpt<'a> {
+//     part: &'a str,
+// }
 
 // lifetimes tell the borrow check that the references passed to a function are valid for the lifetime 'a'
 // and also the returned reference is valid for the lifetime 'a'
