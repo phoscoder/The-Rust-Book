@@ -1,0 +1,7 @@
+
+use add_one;
+
+fn main() {
+    let num: u64 = 10;
+    println!("Hello, world! {} plus one is {}!", num, add_one::add(num));
+}
